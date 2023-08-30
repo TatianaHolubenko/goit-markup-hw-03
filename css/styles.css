@@ -83,7 +83,7 @@ body {
 .navigation-list {
   display: inline-flex;
   align-items: center;
-  gap: 40px;
+  column-gap: 40px;
 }
 .navigation-link {
   display: block;
@@ -103,7 +103,7 @@ body {
   display: inline-flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 40px;
+  column-gap: 40px;
 
   color: #434455;
   line-height: 1.5;
@@ -111,7 +111,7 @@ body {
 }
 .address-list {
   display: flex;
-  gap: 40px;
+  column-gap: 40px;
 }
 .address-contact {
   padding-top: 24px;
@@ -166,14 +166,14 @@ body {
 /*Section 2*/
 .business-solutions-list {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
   margin-left: auto;
   margin-right: auto;
 }
 .business-solutions-item {
   display: inline-flex;
   flex-direction: column;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
   position: absolute;
@@ -218,7 +218,7 @@ body {
 }
 .team-list {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
 }
 .team-list-item {
   background-color: #ffffff;
